@@ -1,0 +1,7 @@
+
+csquid:UselessImportCheck"9Remove this unused import 'com.example.demo.base.Status'.(¤âN8³©ÿğ¼.
+¤squid:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ï´¦«ÿÿÿÿÿ8ùâø’½.
+Ÿsquid:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åÛ¸Ê8ÕçÕ°½.
+]squid:UselessImportCheck"2Remove this unused import 'javax.xml.ws.Response'.(ğá¼‹8Ù…Ùğ¼.
+csquid:UselessImportCheck"9Remove this unused import 'com.example.demo.base.Result'.(õ­88³©ÿğ¼.
+qsquid:S00116"RRename this field "ADDRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¼®8Å©¢¿¼.

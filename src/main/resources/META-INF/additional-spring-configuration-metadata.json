@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "web3j.url",
+      "type": "java.lang.String",
+      "description": "Description for web3j.url."
+  }
+] }

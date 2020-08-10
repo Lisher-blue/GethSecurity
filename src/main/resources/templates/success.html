@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Love</title>
+    <link rel="icon" href="images/icon.ico"/>
+    <script>
+        function countDown(){
+            //获取初始时间
+            const time = document.getElementById("Time");
+
+            //获取到id为time标签中的数字时间
+            if(parseInt(time.innerHTML) === 0){
+                //等于0时清除计时，并跳转该指定页面
+                window.location.href="http://localhost:8080/";
+            }else{
+                time.innerHTML = parseInt(time.innerHTML)-1+"";
+            }
+        }
+        //1000毫秒调用一次
+        window.setInterval("countDown()",1000);
+    </script>
+    <style>
+        #Time,#p{
+            font-size: 50px;
+            text-align: center;
+        }
+        #Font,#p{
+            font-size: 50px;
+            text-align: center;
+        }
+        #Space,#p{
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="container" background="images/back1.jpg" style="background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed">
+<!--<span style="color: yellow; "><p id="Time">5</p></span>-->
+<p id="Space">申请成功！</p>
+<h1 id="Font"><span id="Time">5</span>后自动跳转至首页</h1>
+<!--<p id="Font">申请成功，5s后将跳转至主页</p>-->
+<form class="form-horizontal" role="form" method="POST" action="/success" enctype="multipart/form-data">
+
+</form>
+</body>
+</html>

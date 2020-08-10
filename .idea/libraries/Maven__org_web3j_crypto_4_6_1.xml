@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.web3j:crypto:4.6.1">
+    <CLASSES>
+      <root url="jar://F:/maven-repository/org/web3j/crypto/4.6.1/crypto-4.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/maven-repository/org/web3j/crypto/4.6.1/crypto-4.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/maven-repository/org/web3j/crypto/4.6.1/crypto-4.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
